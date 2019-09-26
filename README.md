@@ -1,7 +1,7 @@
 # node-monitor-client
  node monitor client
 
-通过配置定时任务的方式，执行 shell 执行，然后往服务器端发送监控信息。
+通过配置定时任务的方式，执行 shell 执行，然后往服务器端发送监控信息(websocket)。
 
 
 # 配置信息
