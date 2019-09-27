@@ -3,6 +3,8 @@
 
 通过配置定时任务的方式，执行 shell 执行，然后往服务器端发送监控信息(websocket)。
 
+需要配合 node-monitor-server 一起使用才行。
+
 
 # 配置信息
 config/index.js
