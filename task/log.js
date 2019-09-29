@@ -13,7 +13,8 @@ const _ = require('lodash');
 
 //
 let _logDir = CONFIG.logDir[getEnv()];
-let _logPath = _logDir;
+let _logName = CONFIG.logName[getEnv()];
+let _logPath = _logDir + _logName;
 
 let _buffer = null;
 let _socket = null;

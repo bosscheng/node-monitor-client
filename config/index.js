@@ -5,11 +5,15 @@ module.exports = {
         production: "http://xxx.com"
     },
     logDir: {
-        development: path.join(__dirname, '../test/logs/test.log'),
+        development: path.join(__dirname, '../test/logs/'),
+        production: ''
+    },
+    logName: {
+        development: 'test.log',
         production: ''
     },
     programName:{
-        development:'',
+        development:'xxx',
         production:''
     }
 
