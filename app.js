@@ -23,6 +23,9 @@ if (isDev()) {
     address = getRandomAddress();
 }
 
+console.log(`local address:${address}`);
+
+
 // socket
 const socket = io(CONFIG.server[env]);
 console.log(`ws address:${CONFIG.server[env]}`);
